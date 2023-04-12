@@ -1,0 +1,748 @@
+Start testing: Apr 11 12:56 PDT
+----------------------------------------------------------
+1/11 Testing: he_only_plain
+1/11 Test: he_only_plain
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/he_only_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"he_only_plain" start time: Apr 11 12:56 PDT
+Output:
+----------------------------------------------------------
+Test 0
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+... ok
+Test 1
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+... ok
+Test 2
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+... ok
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"he_only_plain" end time: Apr 11 12:56 PDT
+"he_only_plain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: he_only_z2_plain
+2/11 Test: he_only_z2_plain
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/he_only_z2_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"he_only_z2_plain" start time: Apr 11 12:56 PDT
+Output:
+----------------------------------------------------------
+Test 0
+N = 5
+BitSize = 16
+Getting random elements......done
+Computing in plain......done
+... ok
+Test 1
+N = 5
+BitSize = 16
+Getting random elements......done
+Computing in plain......done
+... ok
+Test 2
+N = 5
+BitSize = 16
+Getting random elements......done
+Computing in plain......done
+... ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"he_only_z2_plain" end time: Apr 11 12:56 PDT
+"he_only_z2_plain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: pasta_3_plain
+3/11 Test: pasta_3_plain
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/pasta_3_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"pasta_3_plain" start time: Apr 11 12:56 PDT
+Output:
+----------------------------------------------------------
+Test 0
+Final decrypt......done
+Time: 5 milliseconds
+Cycles: 5657
+... ok
+Test 1
+Final decrypt......done
+Time: 6 milliseconds
+Cycles: 6603
+... ok
+Test 2
+Final decrypt......done
+Time: 11 milliseconds
+Cycles: 11288
+... ok
+Test 3
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 2 milliseconds
+Cycles: 2250
+Encrypting input......done
+Time: 8 milliseconds
+Cycles: 8563
+Decrypting......done
+Time: 8 milliseconds
+Cycles: 8066
+Computing......done
+Time: 1 milliseconds
+Cycles: 1753
+... ok
+Test 4
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 2 milliseconds
+Cycles: 2406
+Encrypting input......done
+Time: 10 milliseconds
+Cycles: 10581
+Decrypting......done
+Time: 10 milliseconds
+Cycles: 10083
+Computing......done
+Time: 2 milliseconds
+Cycles: 2278
+... ok
+Test 5
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 3 milliseconds
+Cycles: 3599
+Encrypting input......done
+Time: 15 milliseconds
+Cycles: 15304
+Decrypting......done
+Time: 15 milliseconds
+Cycles: 15396
+Computing......done
+Time: 3 milliseconds
+Cycles: 3536
+... ok
+Test 6
+Preprocessing constants for 1 block......done
+Time: 2 milliseconds
+Cycles: 2004
+... ok
+Test 7
+Preprocessing constants for 1 block......done
+Time: 2 milliseconds
+Cycles: 2559
+... ok
+Test 8
+Preprocessing constants for 1 block......done
+Time: 3 milliseconds
+Cycles: 3905
+... ok
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"pasta_3_plain" end time: Apr 11 12:56 PDT
+"pasta_3_plain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: hera_5_plain
+4/11 Test: hera_5_plain
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/hera_5_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"hera_5_plain" start time: Apr 11 12:56 PDT
+Output:
+----------------------------------------------------------
+Test 0
+Final decrypt......done
+Time: 0 milliseconds
+Cycles: 15
+... ok
+Test 1
+Final decrypt......done
+Time: 0 milliseconds
+Cycles: 13
+... ok
+Test 2
+Final decrypt......done
+Time: 0 milliseconds
+Cycles: 15
+... ok
+Test 3
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 1 milliseconds
+Cycles: 1597
+Encrypting input......done
+Time: 0 milliseconds
+Cycles: 253
+Decrypting......done
+Time: 0 milliseconds
+Cycles: 256
+Computing......done
+Time: 2 milliseconds
+Cycles: 2302
+... ok
+Test 4
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 3 milliseconds
+Cycles: 3013
+Encrypting input......done
+Time: 0 milliseconds
+Cycles: 179
+Decrypting......done
+Time: 0 milliseconds
+Cycles: 199
+Computing......done
+Time: 2 milliseconds
+Cycles: 2433
+... ok
+Test 5
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Time: 3 milliseconds
+Cycles: 3476
+Encrypting input......done
+Time: 0 milliseconds
+Cycles: 176
+Decrypting......done
+Time: 0 milliseconds
+Cycles: 172
+Computing......done
+Time: 3 milliseconds
+Cycles: 3670
+... ok
+Test 6
+Preprocessing constants for 1 block......done
+Time: 0 milliseconds
+Cycles: 8
+... ok
+Test 7
+Preprocessing constants for 1 block......done
+Time: 0 milliseconds
+Cycles: 4
+... ok
+Test 8
+Preprocessing constants for 1 block......done
+Time: 0 milliseconds
+Cycles: 4
+... ok
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"hera_5_plain" end time: Apr 11 12:56 PDT
+"hera_5_plain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: he_only_seal
+5/11 Test: he_only_seal
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/he_only_seal_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"he_only_seal" start time: Apr 11 12:56 PDT
+Output:
+----------------------------------------------------------
+Test 0
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 8192
+|   coeff_modulus size: 218 (43 + 43 + 44 + 44 + 44) bits
+|   plain_modulus: 65537
+\
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Computing in HE...
+Encryption time: 3 milliseconds
+Ciphertext size = 432589 Bytes
+initial noise:
+noise budget: 150
+Computation time: 1640 milliseconds
+final noise:
+noise budget: 15
+Final ciphertext size = 432455 Bytes
+Decryption time: 1 milliseconds
+...done
+... ok
+Test 1
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 16384
+|   coeff_modulus size: 438 (48 + 48 + 48 + 49 + 49 + 49 + 49 + 49 + 49) bits
+|   plain_modulus: 8088322049
+\
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Computing in HE...
+Encryption time: 11 milliseconds
+Ciphertext size = 1826274 Bytes
+initial noise:
+noise budget: 348
+Computation time: 7623 milliseconds
+final noise:
+noise budget: 123
+Final ciphertext size = 1826260 Bytes
+Decryption time: 4 milliseconds
+...done
+... ok
+Test 2
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 1096486890805657601
+\
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Computing in HE...
+Encryption time: 45 milliseconds
+Ciphertext size = 7404805 Bytes
+initial noise:
+noise budget: 756
+Computation time: 48377 milliseconds
+final noise:
+noise budget: 393
+Final ciphertext size = 7405031 Bytes
+Decryption time: 19 milliseconds
+...done
+... ok
+<end of output>
+Test time =  64.99 sec
+----------------------------------------------------------
+Test Passed.
+"he_only_seal" end time: Apr 11 12:57 PDT
+"he_only_seal" time elapsed: 00:01:04
+----------------------------------------------------------
+
+6/11 Testing: pasta_3_seal
+6/11 Test: pasta_3_seal
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/pasta_3_seal_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"pasta_3_seal" start time: Apr 11 12:57 PDT
+Output:
+----------------------------------------------------------
+Test 0
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 16384
+|   coeff_modulus size: 438 (48 + 48 + 48 + 49 + 49 + 49 + 49 + 49 + 49) bits
+|   plain_modulus: 65537
+\
+HE encrypting key......done
+Time: 11 milliseconds
+initial noise:
+min noise budget: 364
+max noise budget: 364
+HE decrypting...round 1
+noise budget: 283
+round 2
+noise budget: 206
+round 3
+noise budget: 122
+final add
+...done
+Time: 7340 milliseconds
+final noise:
+min noise budget: 96
+max noise budget: 96
+Final decrypt......done
+Time: 4 milliseconds
+... ok
+Test 1
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 8088322049
+\
+HE encrypting key......done
+Time: 44 milliseconds
+initial noise:
+min noise budget: 783
+max noise budget: 783
+HE decrypting...round 1
+noise budget: 650
+round 2
+noise budget: 520
+round 3
+noise budget: 383
+final add
+...done
+Time: 35231 milliseconds
+final noise:
+min noise budget: 339
+max noise budget: 339
+Final decrypt......done
+Time: 19 milliseconds
+... ok
+Test 2
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 1096486890805657601
+\
+HE encrypting key......done
+Time: 42 milliseconds
+initial noise:
+min noise budget: 756
+max noise budget: 756
+HE decrypting...round 1
+noise budget: 540
+round 2
+noise budget: 330
+round 3
+noise budget: 112
+final add
+...done
+Time: 45858 milliseconds
+final noise:
+min noise budget: 41
+max noise budget: 41
+Final decrypt......done
+Time: 19 milliseconds
+... ok
+Test 3
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Encrypting input......done
+Time: 7 milliseconds
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 65537
+\
+HE encrypting key......done
+Time: 44 milliseconds
+initial noise:
+min noise budget: 800
+max noise budget: 800
+HE decrypting...round 1
+noise budget: 717
+round 2
+noise budget: 638
+round 3
+noise budget: 552
+final add
+round 1
+noise budget: 717
+round 2
+noise budget: 638
+round 3
+noise budget: 552
+final add
+...done
+Time: 70414 milliseconds
+noise:
+min noise budget: 525
+max noise budget: 525
+HE postprocessing......done
+Time: 181 milliseconds
+noise:
+noise budget: 503
+Computing in HE......done
+Time: 36002 milliseconds
+Final noise:
+noise budget: 365
+Final ciphertext size = 7404895 Bytes
+Final decrypt...... done
+Time: 19 milliseconds
+... ok
+Test 4
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Encrypting input......done
+Time: 11 milliseconds
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 8088322049
+\
+HE encrypting key......done
+Time: 42 milliseconds
+initial noise:
+min noise budget: 783
+max noise budget: 783
+HE decrypting...round 1
+noise budget: 649
+round 2
+noise budget: 520
+round 3
+noise budget: 383
+final add
+round 1
+noise budget: 649
+round 2
+noise budget: 520
+round 3
+noise budget: 382
+final add
+...done
+Time: 130597 milliseconds
+noise:
+min noise budget: 339
+max noise budget: 339
+HE postprocessing......done
+Time: 501 milliseconds
+noise:
+noise budget: 300
+Computing in HE......done
+Time: 104292 milliseconds
+Final noise:
+noise budget: 78
+Final ciphertext size = 7404897 Bytes
+Final decrypt...... done
+Time: 18 milliseconds
+... ok
+Test 5
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Encrypting input......done
+Time: 15 milliseconds
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 65536
+|   coeff_modulus size: 1740 (60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60) bits
+|   plain_modulus: 1096486890805657601
+\
+<end of output>
+Test time = 476.57 sec
+----------------------------------------------------------
+Test Failed.
+"pasta_3_seal" end time: Apr 11 13:05 PDT
+"pasta_3_seal" time elapsed: 00:07:56
+----------------------------------------------------------
+
+7/11 Testing: hera_5_seal
+7/11 Test: hera_5_seal
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/hera_5_seal_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"hera_5_seal" start time: Apr 11 13:05 PDT
+Output:
+----------------------------------------------------------
+Test 0
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 65537
+\
+HE encrypting key......done
+Time: 45 milliseconds
+initial noise:
+min noise budget: 800
+max noise budget: 800
+HE decrypting...round 1
+noise budget: 694
+round 2
+noise budget: 610
+round 3
+noise budget: 526
+round 4
+noise budget: 441
+final add
+...done
+Time: 13870 milliseconds
+final noise:
+min noise budget: 333
+max noise budget: 333
+Final decrypt......done
+Time: 19 milliseconds
+... ok
+Test 1
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 32768
+|   coeff_modulus size: 881 (55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 55 + 56) bits
+|   plain_modulus: 8088322049
+\
+HE encrypting key......done
+Time: 42 milliseconds
+initial noise:
+min noise budget: 783
+max noise budget: 783
+HE decrypting...round 1
+noise budget: 609
+round 2
+noise budget: 475
+round 3
+noise budget: 340
+round 4
+noise budget: 204
+final add
+...done
+Time: 13870 milliseconds
+final noise:
+min noise budget: 28
+max noise budget: 28
+Final decrypt......done
+Time: 19 milliseconds
+... ok
+Test 2
+/
+| Encryption parameters:
+|   scheme: BFV
+|   poly_modulus_degree: 65536
+|   coeff_modulus size: 1740 (60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60 + 60) bits
+|   plain_modulus: 1096486890805657601
+\
+<end of output>
+Test time =  54.43 sec
+----------------------------------------------------------
+Test Failed.
+"hera_5_seal" end time: Apr 11 13:06 PDT
+"hera_5_seal" time elapsed: 00:00:54
+----------------------------------------------------------
+
+8/11 Testing: he_only_helib
+8/11 Test: he_only_helib
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/he_only_helib_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"he_only_helib" start time: Apr 11 13:06 PDT
+Output:
+----------------------------------------------------------
+Test 0
+/
+| Encryption parameters:
+|   scheme: BGV 
+|   slots: 16384
+|   bootstrappable: 0
+|   m: 32768
+|   phi(m): 16384
+|   plain_modulus: 65537
+|   cipher mod size (bits): 312
+|   r: 1
+|   sec level: 181.002
+\
+Num matrices = 3
+N = 200
+Getting random elements......done
+Computing in plain......done
+Computing in HE...
+Encryption time: 16 milliseconds
+Ciphertext size = 1048912 Bytes
+initial noise:
+noise budget: 188
+Computation time: 7686 milliseconds
+final noise:
+noise budget: 5
+Final ciphertext size = 1048912 Bytes
+Decryption time: 2303 milliseconds
+...done
+<end of output>
+Test time =  58.95 sec
+----------------------------------------------------------
+Test Failed.
+"he_only_helib" end time: Apr 11 13:07 PDT
+"he_only_helib" time elapsed: 00:00:58
+----------------------------------------------------------
+
+9/11 Testing: pasta_3_helib
+9/11 Test: pasta_3_helib
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/pasta_3_helib_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"pasta_3_helib" start time: Apr 11 13:07 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  35.67 sec
+----------------------------------------------------------
+Test Failed.
+"pasta_3_helib" end time: Apr 11 13:07 PDT
+"pasta_3_helib" time elapsed: 00:00:35
+----------------------------------------------------------
+
+10/11 Testing: hera_5_helib
+10/11 Test: hera_5_helib
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/hera_5_helib_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"hera_5_helib" start time: Apr 11 13:07 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  74.77 sec
+----------------------------------------------------------
+Test Failed.
+"hera_5_helib" end time: Apr 11 13:09 PDT
+"hera_5_helib" time elapsed: 00:01:14
+----------------------------------------------------------
+
+11/11 Testing: he_only_z2_tfhe
+11/11 Test: he_only_z2_tfhe
+Command: "/home/pete/work/hhe/hybrid-HE-framework/tests/tests/he_only_z2_tfhe_test"
+Directory: /home/pete/work/hhe/hybrid-HE-framework/tests/tests
+"he_only_z2_tfhe" start time: Apr 11 13:09 PDT
+Output:
+----------------------------------------------------------
+Test 0
+N = 5
+BitSize = 16
+Getting random elements......done
+Computing in plain......done
+Computing in HE...
+Encryption time: 1 milliseconds
+row 0
+row 1
+row 2
+row 3
+row 4
+Computation time: 164859 milliseconds
+Decryption time: 0 milliseconds
+...done
+... ok
+<end of output>
+Test time = 165.80 sec
+----------------------------------------------------------
+Test Passed.
+"he_only_z2_tfhe" end time: Apr 11 13:11 PDT
+"he_only_z2_tfhe" time elapsed: 00:02:45
+----------------------------------------------------------
+
+End testing: Apr 11 13:11 PDT

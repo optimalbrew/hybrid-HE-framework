@@ -1,4 +1,8 @@
 .vscode
 build/
+thirdparty/helib
+thirdparty/m4ri
+thirdparty/tfhe
 thirdparty/NTL
 helib.log
+tests/

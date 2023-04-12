@@ -10,87 +10,87 @@ option(BUILD_TESTS "Build tests for HHE" ON)
 set(PLAIN_CIPHS
   he_only
   he_only_z2
-  agrasta
-  agrasta_packed
-  rasta_5
-  rasta_5_packed
-  rasta_6
-  rasta_6_packed
-  dasta_5
-  dasta_5_packed
-  dasta_6
-  dasta_6_packed
-  lowmc
-  filip_1216
-  filip_1280
-  kreyvium
-  kreyvium_12
-  kreyvium_13
+  # agrasta
+  # agrasta_packed
+  # rasta_5
+  # rasta_5_packed
+  # rasta_6
+  # rasta_6_packed
+  # dasta_5
+  # dasta_5_packed
+  # dasta_6
+  # dasta_6_packed
+  # lowmc
+  # filip_1216
+  # filip_1280
+  # kreyvium
+  # kreyvium_12
+  # kreyvium_13
   pasta_3
-  pasta_4
-  masta_4
-  masta_5
+  # pasta_4
+  # masta_4
+  # masta_5
   hera_5
 )
 
 set(SEAL_CIPHS
   he_only
-  agrasta
-  rasta_5
-  rasta_6
-  dasta_5
-  dasta_6
-  lowmc
-  filip_1216
-  filip_1280
-  kreyvium
-  kreyvium_12
-  kreyvium_13
+  # agrasta
+  # rasta_5
+  # rasta_6
+  # dasta_5
+  # dasta_6
+  # lowmc
+  # filip_1216
+  # filip_1280
+  # kreyvium
+  # kreyvium_12
+  # kreyvium_13
   pasta_3
-  pasta_4
-  masta_4
-  masta_5
+  # pasta_4
+  # masta_4
+  # masta_5
   hera_5
 )
 
 set(HELIB_CIPHS
   he_only
-  agrasta
-  agrasta_packed
-  rasta_5
-  rasta_5_packed
-  rasta_6
-  rasta_6_packed
-  dasta_5
-  dasta_5_packed
-  dasta_6
-  dasta_6_packed
-  lowmc
-  filip_1216
-  filip_1280
-  kreyvium
-  kreyvium_12
-  kreyvium_13
+  # agrasta
+  # agrasta_packed
+  # rasta_5
+  # rasta_5_packed
+  # rasta_6
+  # rasta_6_packed
+  # dasta_5
+  # dasta_5_packed
+  # dasta_6
+  # dasta_6_packed
+  # lowmc
+  # filip_1216
+  # filip_1280
+  # kreyvium
+  # kreyvium_12
+  # kreyvium_13
   pasta_3
-  pasta_4
-  masta_4
-  masta_5
+  # pasta_4
+  # masta_4
+  # masta_5
   hera_5
 )
 
 set(TFHE_CIPHS
   he_only_z2
-  agrasta
-  rasta_5
-  rasta_6
-  dasta_5
-  dasta_6
-  lowmc
-  filip_1216
-  filip_1280
-  kreyvium
-  kreyvium_12
-  kreyvium_13
+  # agrasta
+  # rasta_5
+  # rasta_6
+  # dasta_5
+  # dasta_6
+  # lowmc
+  # filip_1216
+  # filip_1280
+  # kreyvium
+  # kreyvium_12
+  # kreyvium_13
 )
 
 include(CheckCCompilerFlag)
